@@ -10,7 +10,7 @@
 </head>
   
     <!--NAVEGACIÓN-->
-    <nav class="navbar navbar-expand-lg navbar-bl bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
        <a class="navbar-brand fa-solid fa-shop" href="/"> Tech Pet</a>
        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,13 +20,13 @@
        <div class="collapse navbar-collapse" id="navbarSupportedContent">
          <ul class="navbar-nav ml-auto">
            <li class="nav-item active">
-             <a class="nav-link fa-solid fa-paw" href="#"> Products</a>
+             <a class="nav-link fa-solid fa-paw active" href="products.html"> Products</a>
            </li>
            <li class="nav-item ">
-             <a class="nav-link fa-solid fa-bone" href="#"> Foundation</a>
+             <a class="nav-link fa-solid fa-bone active" href="foundation.html"> Foundation</a>
            </li>
            <li class="nav-item ">
-             <a class="nav-link fa-solid fa-shield-dog" href="#"> Login</a>
+             <a class="nav-link fa-solid fa-shield-dog active" href="login.html"> Login</a>
            </li>
          </ul>
        </div>
@@ -52,47 +52,51 @@
          <div class="col-12 text-center "><h1> Everyday News About Tech For Pets</h1></div>
        </div>
        <div class="row">
-         <div class="col">
+         <div class="col-md-4 py-3">
            <input type="text" class="form-control form-control-lg"
            placeholder="Enter your Name">
          </div>
-         <div class="col-md-4">
+         <div class="col-md-4 py-3">
            <input type="email" class="form-control form-control-lg"
            placeholder="Enter your Email">
          </div>
-         <div class="col-md-4">
+         <div class="col-md-4 py-3">
            <button class="btn btn-primary btn-lg btn-block">Subscribe</button>
          </div> 
      </div>
    </section>
 
    <!--FEATURES-->
-   <SECtion class="py-5 bg-dark">
-     <div class="container">
+   <section class="bg-dark py-5">
+     <div class="container-fluid">
        <div class="row">
-         <div class="col-6">
-         <div class="card text-center border-primary">
-           <div class="card-body">
-             <img src="img/dogecoin-brand.jpg" alt="">
+
+   
+         <div class="col-6 d-flex justify-content-center" >
+         <div class="card border-primary">
+           <div class="card-body container-fluid">
+             <img src="img/dogecoin-brand.jpg" alt="" class="img-fluid" alt="Responsive image">
              <h3>Buy DogoCoin</h3>
              <p>Our Cripto Pet currency</p>
+            
            </div>
          </div>
          </div>
-         
-         <div class="col-6">
-           <div class="card text-center border-primary">
-             <div class="card-body">
-               <img src="img/pet_lodge.jpg" alt="">
+    
+
+         <div class="col-6 d-flex justify-content-center">
+           <div class="card border-primary">
+             <div class="card-body container-fluid">
+               <img src="img/pet_lodge.jpg" alt="" class="img-fluid" alt="Responsive image">
                <h3>Life Outdoor</h3>
-               <p>Parks and Pet Lodges</p>
+               <p>Places</p>
              </div>
            </div>
          </div>
          
        </div>
      </div>
-   </SECtion>
+   </section>
 
   
  <!-- Footer -->

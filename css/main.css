@@ -1,18 +1,10 @@
 .navbar{
-    box-shadow: blue;
+    box-shadow: 2px 2px 5px #000;
     opacity: 0.9;
 }
 
-.navbar .nav-item .nav-link{
-    color:blue
+
+.form-control, .btn {
+    border-radius: 90px;
 
 }
-
-.main-header{
-    position: relative;
-    background: url(/img/Puppies-Shop-Imagen-Carrusel-2.png);
-    
-    background-size: cover;
-    min-height: 700px;
-}
-
