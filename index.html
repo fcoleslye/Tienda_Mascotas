@@ -4,70 +4,132 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <title>Document</title>
+    <title>TechPEt</title>
 </head>
-<body>  
-    
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"  >
-        <!-- Brand -->
-        <a class="navbar-brand" href="/">
-            <a class="nav-link fa-solid fa-shop" href="/"> Welcome</a>  
-            
-        </a>
-      
-        <!-- Toggler/collapsibe Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <!-- Navbar links -->
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link fa-solid fa-paw" href="#"> Products</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fa-solid fa-bone" href="#"> Foundation</a>
-            </li>
-            
-            <li class="nav-item" >
-              <a class="nav-link fa-solid fa-shield-dog " href="#"> Login</a>
-            </li>
-          
-          </ul>
-        </div>
-      </nav>
-
-      
-
-          <div class="row">
-              <div class="col">
-                <img src="img/Puppies-Shop-Imagen-Carrusel-2.png" alt="" height="100%" width=""> 
-              </div>
-        </div>
-        
-
-
-      
   
+    <!--NAVEGACIÓN-->
+    <nav class="navbar navbar-expand-lg navbar-bl bg-dark">
+      <div class="container-fluid">
+       <a class="navbar-brand fa-solid fa-shop" href="/"> Tech Pet</a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+     
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav ml-auto">
+           <li class="nav-item active">
+             <a class="nav-link fa-solid fa-paw" href="#"> Products</a>
+           </li>
+           <li class="nav-item ">
+             <a class="nav-link fa-solid fa-bone" href="#"> Foundation</a>
+           </li>
+           <li class="nav-item ">
+             <a class="nav-link fa-solid fa-shield-dog" href="#"> Login</a>
+           </li>
+         </ul>
+       </div>
 
-<!-- jQuery library -->
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+        </div>
+   </nav>
 
-<!-- Popper JS -->
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    
+     <!--BACKGROUND-->
 
-<!-- Latest compiled JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+   <div class="container-fluid">
+     <div class="row">
+      <img src="img/Puppies-Shop-Imagen-Carrusel-2.png" class="img-fluid" alt="Responsive image">
+     </div>
+   </div>
+
+
+<!--NEWSLETTER-->
+
+   <section class="bg-dark text-white py-5">
+     <div class="container">
+       <div class="row">
+         <div class="col-12 text-center text-primary"><h1>Everyday News About Tech For Pets</h1></div>
+       </div>
+       <div class="row">
+         <div class="col">
+           <input type="text" class="form-control form-control-lg"
+           placeholder="Enter your Name">
+         </div>
+         <div class="col-md-4">
+           <input type="email" class="form-control form-control-lg"
+           placeholder="Enter your Email">
+         </div>
+         <div class="col-md-4">
+           <button class="btn btn-primary btn-lg btn-block">Subscribe</button>
+         </div> 
+     </div>
+   </section>
+
+   <!--FEATURES-->
+   <SECtion class="py-5">
+     <div class="container">
+       <div class="row">
+         <div class="col-md-3">
+         <div class="card text-center border-primary">
+           <div class="card-body">
+             <h3>Feature One</h3>
+             <p>Lorem ipsum dolor sit amet.</p>
+           </div>
+         </div>
+         </div>
+         <div class="col-md-3">
+           <div class="card text-center bg-primary text-white">
+             <div class="card-body">
+               <h3>Feature Two</h3>
+               <p>Lorem ipsum dolor sit amet.</p>
+             </div>
+           </div>
+         </div>
+         <div class="col-md-3">
+           <div class="card text-center border-primary">
+             <div class="card-body">
+               <h3>Feature Three</h3>
+               <p>Lorem ipsum dolor sit amet.</p>
+             </div>
+           </div>
+         </div>
+         <div class="col-md-3">
+           <div class="card text-center bg-primary text-white">
+             <div class="card-body">
+               <h3>Feature Four</h3>
+               <p>Lorem ipsum dolor sit amet.</p>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </SECtion>
+
+  
+ <!-- Footer -->
+ <footer style="background: black;" class="page-footer blue">
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2022 Copyright:
+      <a href="/"> Tech Pet</a>
+  </div>
+</footer>
 
 
 
 
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 
 
 
